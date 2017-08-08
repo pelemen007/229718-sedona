@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Artsiom Pakholchyk](https://up.htmlacademy.ru/htmlcss/18/user/229718).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Секунов] (https://htmlacademy.ru/profile/id399815).
 
 ---
 
