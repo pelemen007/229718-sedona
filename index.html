@@ -42,7 +42,7 @@
 		
 			<div class="first-feature">
 				<div class="feature-item combo">
-					<p class="feature-name heading">Настоящий городок</p>
+					<h3 class="feature-name heading">Настоящий городок</h3>
 					<p class="feature-number">- №1 -</p>
 					<p class="feature-description content-text">СЕДОНА - не аттракцион для туристов, там течёт своя жизнь</p>
 				</div>
@@ -53,25 +53,25 @@
 			
 			<ul class="features-advice">
 				<li class="advice-item">
-					<p class="advice-img"></p>
-					<p class="advice-name heading">Жильё</p>
+					<p class="advice-img"><img src="img/icon-1.png"></p>
+					<h3 class="advice-name heading">Жильё</h3>
 					<p class="advice-description content-text"></p>
 				</li>
 				<li class="advice-item">
-					<p class="advice-img"></p>
-					<p class="advice-name heading">Еда</p>
+					<p class="advice-img"><img src="img/icon-3.png"></p>
+					<h3 class="advice-name heading">Еда</h3>
 					<p class="advice-description content-text"></p>				
 				</li>
 				<li class="advice-item">
-					<p class="advice-img"></p>
-					<p class="advice-name heading">Сувениры</p>
+					<p class="advice-img"><img src="img/icon-2.png"></p>
+					<h3 class="advice-name heading">Сувениры</h3>
 					<p class="advice-description content-text"></p>
 				</li>
 			</ul>
 			
 			<div class="second-feature">
 				<div class="feature-item combo">
-					<p class="feature-name heading">Там есть мост дьявола</p>
+					<h3 class="feature-name heading">Там есть мост дьявола</h3>
 					<p class="feature-number">- №2 -</p>
 					<p class="feature-description content-text">Да, по нему можно пройтись! Если конечно вы осмелитесь</p>
 				</div>
@@ -82,17 +82,17 @@
 			
 			<div class="features-list">
 				<div class="feature-item">
-					<p class="featere-name  heading">Небольшая площадь</p>
+					<h3 class="featere-name  heading">Небольшая площадь</h3>
 					<p class="feature-number">- №3 -</p>
 					<p class="feature-description content-text">Все достопримечательности находятся очень близко</p>
 				</div>
 				<div class="feature-item">
-					<p class="featere-name  heading">Красивая дорога/p>
+					<h3 class="featere-name  heading">Красивая дорога</h3>
 					<p class="feature-number">- №4 -</p>
 					<p class="feature-description content-text">Ехать в седону из Лас-Вегаса совсем не скучно!</p>
 				</div>
 				<div class="feature-item">
-					<p class="featere-name  heading">Мало туристов</p>
+					<h3 class="featere-name  heading">Мало туристов</h3>
 					<p class="feature-number">- №5 -</p>
 					<p class="feature-description content-text">Большинство едет в ГРАНД КАНЬОН и толпиться там</p>
 				</div>
@@ -100,14 +100,64 @@
 			
 		</section>
 		
-		<section class="features">
+		<section class="booking">
 		
+			<div class="booking-content">
+				<h2 class="heading huge-heading">Заинтересовались?</h2>
+				<p class="date-of-travel content-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+			</div>
+			
+			<div class="booking-form">
+				<div class="booking-form-head">
+					<p class="heading">Поиск гостиницы в Седоне</p>
+				</div>
+				
+				<form class="booking-form-body" action="https://echo.htmlacademy.ru" method="post">
+					<div class="booking-form-date">
+						<label for="check-in-date">Дата заезда:</label>
+						<input type="text" name="check-in-date" id="check-in-date">
+					</div>
+					<div class="booking-form-date">
+						<label for="grown-people">Дата выезда:</label>
+						<input type="text" name="grown-people" id="grown-people">
+					</div>					
+					<div class="booking-form-people">
+						<label for="check-out-date">Взрослые:</label>
+						<input type="range" name="check-out-date" id="check-out-date">
+					</div>						
+					<div class="booking-form-people">
+						<label for="children">Дети:</label>
+						<input type="range" name="children" id="children">
+					</div>						
+					<input type="submit" class="btn" value="Найти">
+				</form>
+			</div>
+			
+			<div class="booking-map">
+				<img src="img/map.png">
+			</div>
+			
 		</section>
 		
 	</main>
 	
 		
-	<footer>
+	<footer class="main-footer">
+		<p class="find-us heading">#visitSEDONA</p>
+		
+		<div class="footer-social">
+			<ul>
+				<a class="social-button" href="#">Twitter</a>
+				<a class="social-button" href="#">Facebook</a>
+				<a class="social-button" href="#">Youtube</a>
+			</ul>
+		</div>
+		
+		<p class="footer-copyright">
+			<b>Website by</b> 
+			<a class="button" href="https://htmlacademy.ru"><img src="img/logo_name.png"></a>
+		</p>
+		
 	</footer>
 	
 	
