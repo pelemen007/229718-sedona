@@ -24,22 +24,30 @@
 			
 		</header>
 		
-		
-		
 		<main class="countainer">
-		
-		
 		
 			<section class="filters">
 			
 				<div class="filter-infrastructure">
-				
+					<p class="filter-name">Инфрастркутура:</p>
+					<label><input type="checkbox" name="pool" checked>Бассейн</label>
+					<label><input type="checkbox" name="parking">Парковка</label>
+					<label><input type="checkbox" name="wi-fi">WI-FI</label>
 				</div>
 				<div class="filter-type">
-				
+					<p class="filter-name">Тип жилья:</p>
+					<label><input type="checkbox" name="hotel" checked>Гостиница</label>
+					<label><input type="checkbox" name="motel" checked>Мотель</label>
+					<label><input type="checkbox" name="apartments" checked>Апартаменты</label>
 				</div>
 				<div class="filter-price">
-				
+					<p class="filter-name">Стоимость в сутки (Р):</p>
+					<div class="input-price">
+						<input type="text" name="min-price" placeholder="от 0">
+						<input type="text" name="max-price" placeholder="до 3000">
+					</div>
+					<input type="range" name="choose-price">
+					<input type="submit" class="btn-filter" value="Показать">
 				</div>
 			
 			</section>
