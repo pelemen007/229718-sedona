@@ -26,31 +26,33 @@
 		
 		<main class="countainer">
 		
-			<section class="filters">
+			<form class="filters">
 			
-				<div class="filter-infrastructure">
-					<p class="filter-name">Инфрастркутура:</p>
-					<label><input type="checkbox" name="pool" checked>Бассейн</label>
-					<label><input type="checkbox" name="parking">Парковка</label>
-					<label><input type="checkbox" name="wi-fi">WI-FI</label>
-				</div>
-				<div class="filter-type">
-					<p class="filter-name">Тип жилья:</p>
-					<label><input type="checkbox" name="hotel" checked>Гостиница</label>
-					<label><input type="checkbox" name="motel" checked>Мотель</label>
-					<label><input type="checkbox" name="apartments" checked>Апартаменты</label>
-				</div>
-				<div class="filter-price">
-					<p class="filter-name">Стоимость в сутки (Р):</p>
+				<fieldset class="filter-infrastructure">
+					<legend class="filter-name">Инфрастркутура:</legend>
+					<input type="checkbox" name="pool" checked>Бассейн<br>
+					<input type="checkbox" name="parking">Парковка<br>
+					<input type="checkbox" name="wi-fi">WI-FI<br>
+				</fieldset>
+				
+				<fieldset class="filter-type">
+					<legend class="filter-name">Тип жилья:</legend>
+					<input type="checkbox" name="hotel" checked>Гостиница<br>
+					<input type="checkbox" name="motel" checked>Мотель<br>
+					<input type="checkbox" name="apartments" checked>Апартаменты<br>
+				</fieldset>
+				
+				<fieldset class="filter-price">
+					<legend class="filter-name">Стоимость в сутки (Р):</legend>
 					<div class="input-price">
 						<input type="text" name="min-price" placeholder="от 0">
 						<input type="text" name="max-price" placeholder="до 3000">
 					</div>
 					<input type="range" name="choose-price">
-					<input type="submit" class="btn-filter" value="Показать">
-				</div>
+					<button type="submit" class="btn-filter">Показать</button>
+				</fieldset>
 			
-			</section>
+			</form>
 			
 			<section class="sorting">
 			
@@ -65,8 +67,11 @@
 						<li class="sorting-rating"><a>По рейтингу</a></li>
 					</ul>
 				</div>
-				<div class="reverse-order"></div>
-				
+				<div class="sorting-triangle">
+					<span class="sorting-triangle-up"></span>
+					<span class="sorting-triangle-down"></span>
+				</div>
+	
 			</section>
 			
 			<section class="result-list">
@@ -84,11 +89,17 @@
 					<div class="hotel-price">
 						<p class="content-text">От 3500 р.</p>	
 					</div>
-					<a class="button-more">Подробнее</a>
-					<a class="button-book">Забронировать</a>
+					<button class="button-more">Подробнее</button>
+					<button class="button-book">Забронировать</button>
 					
 					<div class="hotel-rating">
-						<div class="hotel-rating-stars"></div>
+						<div class="hotel-rating-stars">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
 						<p class="rating">Рейтинг: 8,5</p>
 					</div>
 				</div>
@@ -105,11 +116,17 @@
 					<div class="hotel-price">
 						<p class="content-text">От 2000 р.</p>	
 					</div>
-					<a class="button-more">Подробнее</a>
-					<a class="button-book">Забронировать</a>
+					<button class="button-more">Подробнее</button>
+					<button class="button-book">Забронировать</button>
 					
 					<div class="hotel-rating">
-						<div class="hotel-rating-stars"></div>
+						<div class="hotel-rating-stars">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
 						<p class="rating">Рейтинг: 8,9</p>
 					</div>
 				</div>
@@ -126,11 +143,17 @@
 					<div class="hotel-price">
 						<p class="content-text">От 4000 р.</p>	
 					</div>
-					<a class="button-more">Подробнее</a>
-					<a class="button-book">Забронировать</a>
+					<button class="button-more">Подробнее</button>
+					<button class="button-book">Забронировать</button>
 					
 					<div class="hotel-rating">
-						<div class="hotel-rating-stars"></div>
+						<div class="hotel-rating-stars">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
 						<p class="rating">Рейтинг: 9,2</p>
 					</div>
 				</div>		
@@ -141,18 +164,16 @@
 		<footer class="main-footer">
 			<p class="find-us heading">#visitSEDONA</p>
 			
-			<div class="footer-social">
-				<ul>
-					<a class="social-button" href="#">Twitter</a>
-					<a class="social-button" href="#">Facebook</a>
-					<a class="social-button" href="#">Youtube</a>
-				</ul>
-			</div>
+			<ul class="footer-social">
+				<li><a class="social-button" href="#">Twitter</a></li>
+				<li><a class="social-button" href="#">Facebook</a></li>
+				<li><a class="social-button" href="#">Youtube</a></li>
+			</ul>
 			
-			<p class="footer-copyright">
+			<div class="footer-copyright">
 				<b>Website by</b> 
-				<a class="button" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo_name.png"></a>
-			</p>
+				<a class="footer-copyright-logo" href="https://htmlacademy.ru/intensive/htmlcss"></a>
+			</div>
 			
 		</footer>
 	
