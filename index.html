@@ -2,6 +2,7 @@
 <html lang="ru">
 	<head>
 		<link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
 		<meta charset="utf-8">
 		<title>HTML Academy: Седона</title>
 	</head>
@@ -15,25 +16,24 @@
 				</a>
 				<nav class="main-nav">
 					<ul class="site-nav">
-						<li><a href="#" class="nav-el">ИНФОРМАЦИЯ</a></li>
-						<li><a href="#" class="nav-el">ФОТО И ВИДЕО</a></li>
-						<li><a href="#" class="nav-el">КАРТА ШТАТА</a></li>
-						<li><a href="#" class="nav-el">ГОСТИНИЦЫ</a></li>
+						<li><a href="#" class="nav-el" tabindex="0">ИНФОРМАЦИЯ</a></li>
+						<li><a href="#" class="nav-el" tabindex="0">ФОТО И ВИДЕО</a></li>
+						<li><a href="#" class="nav-el" tabindex="0">КАРТА ШТАТА</a></li>
+						<li><a href="#" class="nav-el" tabindex="0">ГОСТИНИЦЫ</a></li>
 					</ul>
 				</nav>
 			</div>
 
+    </header>
+
+		<main class="container">
       <div class="main-header-background">
         <img src="img/background photo.jpg">
       </div>
 
-			<div class="main-header-content">
-				<img src="img/content_intro.png">
-			</div>
-
-		</header>
-
-		<main class="countainer">
+      <div class="main-header-content">
+        <img src="img/content_intro.png">
+      </div>
 
 			<h1 class="heading">СЕДОНА — небольшой городок в АРИЗОНЕ,  заслуживающий большего!</h1>
 
@@ -99,7 +99,7 @@
 					</div>
 				</div>
 
-			</section>
+      </section>
 
 			<section class="booking">
 
@@ -109,7 +109,7 @@
 
 				<div class="booking-form">
 
-					<h3 class="booking-form-head heading"><a>Поиск гостиницы в Седоне</a></h3>
+					<button class="booking-form-btn heading" tabindex="0">Поиск гостиницы в Седоне</button>
 
 					<form class="booking-form-body" action="https://echo.htmlacademy.ru" method="post">
 						<div class="booking-form-date">
@@ -128,7 +128,7 @@
 							<label for="children">Дети:</label>
 							<input type="range" name="children" id="children">
 						</div>
-						<button type="submit" class="btn-search" >Найти</button>
+						<button type="submit" class="btn-search" tabindex="0">Найти</button>
 					</form>
 				</div>
 
@@ -142,14 +142,14 @@
 			<p class="find-us heading">#visitSEDONA</p>
 
 			<ul class="footer-social">
-				<li><a class="social-button twitter" href="#">Twitter</a></li>
-				<li><a class="social-button facebook" href="#">Facebook</a></li>
-				<li><a class="social-button youtube" href="#">Youtube</a></li>
+				<li><a class="social-button twitter" href="#" tabindex="0">Twitter</a></li>
+				<li><a class="social-button facebook" href="#" tabindex="0">Facebook</a></li>
+				<li><a class="social-button youtube" href="#" tabindex="0">Youtube</a></li>
 			</ul>
 
 			<div class="footer-copyright">
 				<p class="content-text">Website by</p>
-				<a class="footer-copyright-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo_name.png"></a>
+				<a class="footer-copyright-logo" href="https://htmlacademy.ru/intensive/htmlcss" tabindex="0"><img src="img/logo_name.png"></a>
 			</div>
 
 		</footer>

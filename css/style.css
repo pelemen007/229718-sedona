@@ -31,11 +31,13 @@ ul.site-nav > li {
   list-style-type: none;
 }
 
-.nav-el {
+.nav-el,
+.social-button {
   text-decoration: none;
 }
 
-.advice-item {
+.advice-item,
+.footer-social {
   list-style: none;
 }
 
@@ -44,7 +46,7 @@ ul.site-nav > li {
   background: #81b3d2;
 }
 
-.booking-form-head {
+.booking-form-btn {
   color: #ffffff;
   background: #766357;
 }
