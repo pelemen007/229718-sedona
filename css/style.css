@@ -3,37 +3,38 @@ body {
 	min-width: 1200px;
 	margin: 0 auto;
 	padding: 0;
+  font-size: 21px;
+  font-family: "PT Sans", Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .heading {
   font-size: 21px;
-  font-family: "PT Sans", Arial, sans-serif;
   color: rgb(0, 0, 0);
   font-weight: 700;
   line-height: 1.238;
-  text-transform: uppercase;
 }
 
 .content-text {
   font-size: 14px;
-  font-family: "PT Sans", Arial, sans-serif;
   color: rgb(51, 51, 51);
   line-height: 1.857;
-  text-transform: uppercase;
 }
 
-ul.site-nav > li {
+.site-nav li {
 	font-size: 14px;
-	font-family: "PT Sans", Arial, sans-serif;
 	color: rgb(0, 0, 0);
 	font-weight: 700;
-	text-transform: uppercase;
   list-style-type: none;
 }
 
 .nav-el,
 .social-button {
   text-decoration: none;
+}
+
+.filters {
+  font-size: 16px;
 }
 
 .advice-item,
@@ -54,4 +55,39 @@ ul.site-nav > li {
 .btn-search {
   color: #ffffff;
   background: #81b3d2;
+}
+
+.main-header-logo img {
+  width: 100px;
+  height: 50px;
+}
+
+.footer-copyright-logo img {
+  width: 115px;
+  height: 41px;
+}
+
+.main-header-background img {
+  width: 1200px;
+  height: 800px;
+}
+
+.main-header-content img {
+  width: 458px;
+  height: 352px;
+}
+
+.feature-item-img img {
+  width: 800px;
+  height: 256px;
+}
+
+.form-filter-img img {
+  width: 1200px;
+  height: 562px;
+}
+
+.hotel-img img {
+  width: 135px;
+  height: 90px;
 }
