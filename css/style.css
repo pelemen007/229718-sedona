@@ -82,6 +82,11 @@ body {
   height: 256px;
 }
 
+.booking-map img {
+  width: 1200px;
+  height: 593px;
+}
+
 .form-filter-img img {
   width: 1200px;
   height: 562px;
