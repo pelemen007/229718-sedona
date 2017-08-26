@@ -1,58 +1,162 @@
 html,
 body {
 	min-width: 1200px;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
-  font-size: 21px;
   font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
   text-transform: uppercase;
+  background-color: #ffffff;
+  background-image: url("../img/background-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.inner-page {
+  background-image: none;
+}
+
+a {
+  text-decoration: none;
+  }
+
+.main-nav {
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.site-nav {
+  list-style: none;
+}
+
+.site-nav a {
+  color: #000000;
+}
+
+.site-nav a:hover,
+.site-nav a:focus{
+  color: #81b3d2;
+}
+
+.site-nav a:active {
+  color: #000000;
+  opacity: 0.3;
 }
 
 .heading {
   font-size: 21px;
-  color: rgb(0, 0, 0);
+  line-height: 26px;
+  color: #000000;
   font-weight: 700;
-  line-height: 1.238;
 }
 
 .content-text {
   font-size: 14px;
-  color: rgb(51, 51, 51);
-  line-height: 1.857;
-}
-
-.site-nav li {
-	font-size: 14px;
-	color: rgb(0, 0, 0);
-	font-weight: 700;
-  list-style-type: none;
-}
-
-.nav-el,
-.social-button {
-  text-decoration: none;
-}
-
-.filters {
-  font-size: 16px;
-}
-
-.advice-item,
-.footer-social {
-  list-style: none;
+  color: #333333;
+  line-height: 26px;
+  font-weight: 400;
 }
 
 .combo {
   color: #ffffff;
-  background: #81b3d2;
+  background-color: #81b3d2;
+  text-align: center;
+}
+
+.features-advice {
+  list-style: none;
+}
+
+.advice-item {
+  text-align: center;
+}
+
+.features-list {
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.huge-heading {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.booking-content {
+  text-align: center;
 }
 
 .booking-form-btn {
   color: #ffffff;
-  background: #766357;
+  background-color: #766357;
+  text-transform: uppercase;
+}
+
+.booking-form-btn:hover {
+  background-color: #604e43;
+}
+
+.booking-form-btn:active {
+  color: rgba(255, 255, 255, 0.300);
+  background-color: #503e33;
+}
+
+.booking-form-body {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
 }
 
 .btn-search {
   color: #ffffff;
   background: #81b3d2;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-search:hover {
+  background-color: #669ec0;
+}
+
+.btn-search:active {
+  color: rgba(255, 255, 255, 0.300);;
+  background-color: #5496bd;
+}
+
+.footer-social {
+  list-style: none;
+}
+
+.footer-copyright path:hover {
+  fill: #81b3d2;
+}
+
+.footer-copyright path:active {
+  fill: #bdbbbc;
+}
+
+
+
+/*--------------- catalog -----------------*/
+
+.filter-name {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.sorting-list {
+  list-style: none;
+}
+
+.sorting-name {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
 }
