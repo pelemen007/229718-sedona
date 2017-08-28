@@ -91,18 +91,18 @@ a {
   text-align: center;
 }
 
-.booking-form-btn {
+.brown-btn {
   color: #ffffff;
   background-color: #766357;
   text-transform: uppercase;
 }
 
-.booking-form-btn:hover {
+.brown-btn:hover {
   background-color: #604e43;
 }
 
-.booking-form-btn:active {
-  color: rgba(255, 255, 255, 0.300);
+.brown-btn:active {
+  color: rgba(255, 255, 255, 0.3);
   background-color: #503e33;
 }
 
@@ -124,7 +124,7 @@ a {
 }
 
 .btn-search:active {
-  color: rgba(255, 255, 255, 0.300);;
+  color: rgba(255, 255, 255, 0.3);
   background-color: #5496bd;
 }
 
@@ -132,11 +132,11 @@ a {
   list-style: none;
 }
 
-.footer-copyright path:hover {
+.footer-copyright-logo:hover path{
   fill: #81b3d2;
 }
 
-.footer-copyright path:active {
+.footer-copyright-logo:active path {
   fill: #bdbbbc;
 }
 
@@ -144,11 +144,34 @@ a {
 
 /*--------------- catalog -----------------*/
 
+.inner-page {
+  background-image: url("../img/filter-background.jpg");
+}
+
 .filter-name {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
   color: #ffffff;
+}
+
+.filter-type,
+.filter-infrastructure,
+.filter-price {
+  color: #ffffff;
+}
+
+.btn-filter {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  border-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.btn-filter:hover {
+  color: #000000;
+  background: #ffffff;
 }
 
 .sorting-list {
@@ -159,4 +182,36 @@ a {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
+  color: #000000;
+}
+
+.sorting-list-el {
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom:1px dotted #81b3d2;
+}
+
+.sorting-list-el:hover {
+  color: #81b3d2;
+}
+
+.sorting-list-el:active {
+  color: #000000;
+  border-bottom: none;
+}
+
+.hotel-name a:hover {
+  color: #81b3d2;
+}
+
+.hotel-name a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.button-book {
+  font-weight: 700;
+}
+
+.rating {
+  color: #666666;
+  background-color: #f2f2f2;
 }
