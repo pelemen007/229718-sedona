@@ -222,6 +222,7 @@ a {
 
 .main-nav {
   display: flex;
+  align-items: center;
 }
 
 .site-nav {
@@ -230,19 +231,26 @@ a {
   justify-content: space-around;
 }
 
-.container {
+.main-header-content {
+  display: flex;
+  justify-content: center;
+}
 
+.main-header-h1 {
+  display: flex;
+  justify-content: center;
 }
 
 .first-feature {
   display: flex;
+  justify-content: center;
 }
 
 .second-feature {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
 }
-
 
 .features-advice {
   display: flex;
@@ -252,6 +260,7 @@ a {
 .features-list {
   display: flex;
   justify-content: space-around;
+  align-items: baseline;
 }
 
 .main-footer {
