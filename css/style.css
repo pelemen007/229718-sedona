@@ -23,6 +23,10 @@ a {
   text-decoration: none;
   }
 
+.main-header {
+  width: 1200px;
+}
+
 .main-nav {
   line-height: 26px;
   font-weight: 700;
@@ -53,6 +57,24 @@ a {
   line-height: 26px;
   color: #000000;
   font-weight: 700;
+}
+
+.main-header-content img{
+  margin-bottom: 130px;
+}
+
+.features{
+  background-color: #ffffff;
+}
+
+.main-header-h1 {
+  width: 500px;
+}
+
+.features h1:before{
+  background-image: url("../img/Shape.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .content-text {
@@ -220,13 +242,8 @@ a {
 
 /*--------------- сеточные стили -----------------*/
 
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-
 .site-nav {
-  width: 100%;
+
   display: flex;
   justify-content: space-around;
 }
@@ -239,6 +256,7 @@ a {
 .main-header-h1 {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .first-feature {
@@ -263,7 +281,20 @@ a {
   align-items: baseline;
 }
 
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-map {
+  display: flex;
+  justify-content: center;
+}
+
 .main-footer {
   display: flex;
   justify-content: space-around;
 }
+
