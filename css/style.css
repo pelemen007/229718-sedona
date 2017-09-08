@@ -12,10 +12,6 @@ body {
   background-color: #f2f2f2;
 }
 
-.inner-page {
-  background-image: none;
-}
-
 a {
   text-decoration: none;
   }
@@ -150,12 +146,11 @@ a {
   bottom: 0;
 }
 
-.content-text p{
+.content-text {
   font-size: 14px;
   color: #333333;
   line-height: 26px;
   font-weight: 400;
-  margin-right: 7px;
 }
 
 .combo {
@@ -203,9 +198,9 @@ a {
   margin: 45px auto 20px auto;
 }
 
-.feature-item {
-  height: 256px;
-}
+/*.feature-item {*/
+  /*height: 256px;*/
+/*}*/
 
 .feature-number {
   margin: 0 auto;
@@ -227,6 +222,7 @@ a {
 
 .feature-description {
   margin: 0 auto;
+  margin-bottom: 55px;
 }
 
 .feature-item-img {
@@ -305,8 +301,7 @@ a {
 }
 
 .booking-map {
-  display: flex;
-  justify-content: center;
+  display: block;
 }
 
 .booking-form-body {
@@ -529,9 +524,6 @@ a {
 
 /*--------------- catalog -----------------*/
 
-.inner-page {
-  background-image: url("../img/filter-background.jpg");
-}
 
 .filter-name {
   font-size: 16px;
