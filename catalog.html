@@ -28,21 +28,21 @@
         <form class="filters">
 
           <fieldset class="filter-infrastructure">
-            <legend class="filter-name">Инфрастркутура:</legend>
-            <label class="filter-checkbox"><input type="checkbox" name="pool" checked>Бассейн</label><br>
-            <label class="filter-checkbox"><input type="checkbox" name="parking">Парковка</label><br>
-            <label class="filter-checkbox"><input type="checkbox" name="wi-fi">WI-FI</label><br>
+            <legend class="filter-name name-list-checkbox">Инфрастркутура:</legend>
+            <label class="filter-checkbox"><input type="checkbox" name="pool" class="visually-hidden" checked><span class="filter-infrastructure-checkbox">&nbsp;</span>Бассейн</label>
+            <label class="filter-checkbox"><input type="checkbox" name="parking" class="visually-hidden"><span class="filter-infrastructure-checkbox">&nbsp;</span>Парковка</label>
+            <label class="filter-checkbox"><input type="checkbox" name="wi-fi" class="visually-hidden"><span class="filter-infrastructure-checkbox">&nbsp;</span>WI-FI</label>
           </fieldset>
 
           <fieldset class="filter-type">
-            <legend class="filter-name">Тип жилья:</legend>
-            <label class="filter-checkbox"><input type="checkbox" name="hotel" checked>Гостиница</label><br>
-            <label class="filter-checkbox"><input type="checkbox" name="motel" checked>Мотель</label><br>
-            <label class="filter-checkbox"><input type="checkbox" name="apartments" checked>Апартаменты</label><br>
+            <legend class="filter-name name-list-checkbox">Тип жилья:</legend>
+            <label class="filter-checkbox"><input type="checkbox" name="hotel" class="visually-hidden" checked><span>&nbsp;</span>Гостиница</label>
+            <label class="filter-checkbox"><input type="checkbox" name="motel" class="visually-hidden" checked><span>&nbsp;</span>Мотель</label>
+            <label class="filter-checkbox"><input type="checkbox" name="apartments" class="visually-hidden" checked><span>&nbsp;</span>Апартаменты</label>
           </fieldset>
 
           <fieldset class="filter-price">
-            <legend class="filter-name">Стоимость в сутки (Р):</legend>
+            <legend class="filter-name name-cost-filter">Стоимость в сутки (Р):</legend>
             <div class="input-price">
               <label class="cost-from">От <input type="text" name="min-price" value="0" id="cost-from-value"></label>
               <label class="cost-to">До <input type="text" name="max-price" value="3000" id="cost-to-value"></label>
@@ -67,6 +67,8 @@
 
         <section class="sorting">
 
+          <h2 class="h-hidden">Блок сортировки</h2>
+
           <div class="sorting-result">
             <p class="heading">Найдено: 3</p>
           </div>
@@ -87,6 +89,8 @@
 
         <section class="result-list">
 
+          <h2 class="h-hidden">Список подобранных вариантов отелей</h2>
+
           <div class="result-item">
             <div class="hotel-img">
               <a href="#"><img alt="Amara resort and spa" src="img/Hotel-Amara.jpg" width="135" height="90" ></a>
@@ -97,12 +101,12 @@
               </div>
 
               <div class="hotel-type">
-                <p class="content-text">Гостиница</p>
+                <p>Гостиница</p>
                 <a class="btn-search button-more" href="#">Подробнее</a>
               </div>
 
               <div class="hotel-price">
-                <p class="content-text">От 3500 р.</p>
+                <p>От 3500 р.</p>
                 <a class="btn-brown button-book" href="#">Забронировать</a>
               </div>
             </div>
@@ -131,12 +135,12 @@
               </div>
 
               <div class="hotel-type">
-                <p class="content-text">Мотель</p>
+                <p>Мотель</p>
                 <a class="btn-search button-more" href="#">Подробнее</a>
               </div>
 
               <div class="hotel-price">
-                <p class="content-text">От 2000 р.</p>
+                <p">От 2000 р.</p>
                 <a class="btn-brown button-book" href="#">Забронировать</a>
               </div>
             </div>
@@ -165,12 +169,12 @@
               </div>
 
               <div class="hotel-type">
-                <p class="content-text">Апартаменты</p>
+                <p>Апартаменты</p>
                 <a class="btn-search button-more" href="#">Подробнее</a>
               </div>
 
               <div class="hotel-price">
-                <p class="content-text">От 4000 р.</p>
+                <p>От 4000 р.</p>
                 <a class="btn-brown button-book" href="#">Забронировать</a>
               </div>
             </div>
